@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <link rel="shortcut icon" href="https://metapeople.su/black.svg" type="image/x-icon">
+  <title>1420</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/png">
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LNDBTQSXD5');
+</script>
+</head>
+
+<body>
+
+<div id="home" class="tabcontent">
+		<section id="home">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-4 offset-lg-3">
+							<h1>Я - unbuff. Мне 15, и я живу в России.</h1>
+							<p></p>
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+			</div>
+		</section>
+</div>
+
+
+
+
+<div id="code" class="tabcontent hide">
+		<section id="home">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 offset-lg-3">
+						<h1>Обо мне:</h1>	
+						<p>Учусь, занимаюсь серфингом интернета, чуть чуть умею в дизайне, я - не программист. Знаю, то что могу, но не делаю - в этом моя слабость.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+</div>
+
+<div id="roles" class="tabcontent hide">
+		<section id="home">
+			<div class="container-fluid">	
+				<div class="row">
+					<div class="col-lg-7 offset-lg-3">
+						<h1>Связь:</h1>
+						<p>Telegram: @unbuff<p>
+						<p>VK: @a0059<p>
+						<p>Discord: wetakor#1008<p>	
+					</div>
+				</div>
+			</div>
+		</section>
+</div>
+
+
+<div id="store" class="tabcontent hide">
+		<section id="home">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-7 offset-lg-3">
+						<h1>Не найдено</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+</div>
+
+
+
+
+<nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-1 col-2 offset-lg-3">
+					<small>01</small>
+   			<button class="tablinks active" onclick="openCity(event, 'home')">ME</button>
+				</div>
+
+				<div class="col-lg-1 col-2">
+					<small>02</small>
+					
+   				<button class="tablinks" onclick="openCity(event, 'code')"> HOBBY</button>
+				</div>
+
+				<div class="col-lg-1 col-2">
+					<small>03</small>
+					<button class="tablinks" onclick="openCity(event, 'roles')">CONNECT</button>
+				</div>
+
+			<div class="col-lg-1 col-2">
+				<small>04</small>
+				<button class="tablinks" onclick="openCity(event, 'store')">PROJECTS</button>
+			</div>
+		</div>
+	</div>
+</nav>
+
+</body>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</html>
